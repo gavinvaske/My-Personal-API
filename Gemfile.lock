@@ -42,7 +42,8 @@ GEM
       multi_json (~> 1.0)
       net-http-persistent (>= 2.7)
       net-http-pipeline
-    git (1.4.0)
+    git (1.11.0)
+      rchardet (~> 1.8)
     highline (1.7.10)
     json (2.2.0)
     kramdown (1.17.0)
@@ -63,6 +64,7 @@ GEM
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
+    rchardet (1.8.0)
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
